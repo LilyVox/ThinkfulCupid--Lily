@@ -53,7 +53,9 @@ main img {
   flex: 2;
 }
 .row{
+  display: flex;
   flex-flow: row;
+  justify-content: space-between;
 }
 /* -------  Navigation ------- */
 
@@ -127,7 +129,7 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 700px) {
+@media all and (min-width: 480px) {
   header .group{
     justify-content: space-between;
   }
